@@ -1,0 +1,72 @@
+.TopContainer {
+    background-color: #fff;
+    border-bottom: 1px solid #dce4ec;
+}
+
+.Top {
+    text-align: right;
+    padding: 2px;
+}
+
+.UserMenu {
+
+}
+
+.UserMenu button {
+    border: 0;
+    background: transparent;
+    position: relative;
+    outline: none;
+    margin-top: 5px;
+}
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    overflow: hidden;
+    display:inline-block;
+}
+.avatar img {
+    width: 100%;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.arrow img {
+    width: 12px;
+}
+
+.UserMenuBlock {
+    position: absolute;
+    right: 1%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #dce4ec;
+    /* width: 200px; */
+    padding: 10px 0;
+}
+
+.UserMenuBlock hr {
+    margin: 2px 0;
+}
+
+.UserMenuBlock li {
+    list-style: none;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.UserMenuBlock a {
+    text-decoration: none;
+}
+
+.UserMenuBlock li:hover {
+    background: #dce4ec;
+
+}
