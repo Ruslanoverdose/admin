@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import "./MainContainer.css"
+import {Route, Switch} from 'react-router-dom'
+import MainComponent from "../../components/MainComponent/MainComponent.js"
+
 class MainContainer extends Component {
 
     render() {
@@ -7,37 +10,11 @@ class MainContainer extends Component {
             <div className="MainContainer">
                 <div className="container customContainer">
                     <div className="Content">
-                        <div className="contentTitle">
-                            <h1>Статистика</h1>
-                        </div>
-                        <div className="contentBody">
-                            <div className="lines">
-                                <div className="line">
-                                    <div className="pillar1">
-                                        Количество постов
-                                    </div>
-                                    <div className="pillar2">25</div>
-                                </div>
-                                <div className="line">
-                                    <div className="pillar1">
-                                        Категории
-                                    </div>
-                                    <div className="pillar2">3</div>
-                                </div>
-                                <div className="line">
-                                    <div className="pillar1">
-                                        Теги
-                                    </div>
-                                    <div className="pillar2">32</div>
-                                </div>
-                                <div className="line">
-                                    <div className="pillar1">
-                                        Авторов
-                                    </div>
-                                    <div className="pillar2">2</div>
-                                </div>
-                            </div>
-                        </div>
+                    <Switch>
+                        <Route exact path="/articles" component={MainComponent}/>
+                        <Route exact path="/" component={MainComponent}/>
+                    </Switch>
+                        
                     </div>
                 </div>
             </div>
