@@ -1,9 +1,69 @@
 .MenuContainer {
     position: fixed;
     top: 0;
-    left: 0;
     bottom: 0;
+    height: 100%;
+    background: #fff;
+    width: 15%;
+    transition: .3s all;
+    border-right: 1px solid #dce4ec;
+    z-index: 9999;
 }
 .Sidebar {
-    background: #fff;
+}
+
+.Opening {
+    padding: 10px 0;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.Opening img {
+    width: 24px;
+}
+
+.Opening button {
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+.listMenu {
+    padding: 0;
+}
+
+.listMenu li {
+    list-style: none;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 10px;
+
+}
+
+.listMenu i {
+    font-size: 24px;
+}
+
+.listMenu li:hover {
+    background: #dce4ec;
+}
+
+.listMenu a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+.titleItem {
+    width: 85%;
+    display: inline-block;
+}
+
+.iconItem {
+    text-align: center;
+    display: inline-block;
+    width: 14%;
 }

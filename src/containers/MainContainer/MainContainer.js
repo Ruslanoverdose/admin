@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import "./ContentContainer.css"
-class ContentContainer extends Component {
+import "./MainContainer.css"
+class MainContainer extends Component {
 
     render() {
         return(
-            <div className="ContentContainer">
+            <div className="MainContainer">
                 <div className="container customContainer">
                     <div className="Content">
                         <div className="contentTitle">
@@ -45,4 +45,4 @@ class ContentContainer extends Component {
     }
 }
 
-export default ContentContainer
+export default MainContainer

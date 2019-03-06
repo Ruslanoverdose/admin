@@ -70,3 +70,9 @@
     background: #dce4ec;
 
 }
+
+.UserMenuBlock i {
+    text-align: right;
+    font-size: 24px;    
+}
+

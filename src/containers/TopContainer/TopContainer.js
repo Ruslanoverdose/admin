@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import "./TopContainer.css"
 import avatar from "../../assets/img/photo.jpg"
 import down from "../../assets/img/down.png"
+import {NavLink} from 'react-router-dom'
 class TopContainer extends Component {
     constructor(props) {
         super(props);
@@ -31,10 +32,10 @@ class TopContainer extends Component {
                                 </div>
                             </button>
                             <ul className="UserMenuBlock" style={this.state.menuIsOpen ? {display: "block"} : {display: "none"}}>
-                                <li><a href="">Мой профиль</a></li>
-                                <li><a href="">Сменить пароль</a></li>
+                                <li><NavLink to="">Мой профиль</NavLink></li>
+                                <li><NavLink to="">Сменить пароль</NavLink></li>
                                 <hr/>
-                                <li><a href="">Выйти</a></li>
+                                <li><NavLink to="">Выйти</NavLink></li>
                             </ul>
                         </div>
                     </div>
